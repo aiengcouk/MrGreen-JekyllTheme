@@ -5,7 +5,7 @@
 page_data:
   main:
     header: "Projects"
-    info: "Your Project page description."
+    info: "This is the list of our projects."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading.jpg"
@@ -14,21 +14,21 @@ page_data:
   category:
     - title: "In progress"
       type: id_example
-      color: "gray"
+      color: "#2FD0ED"
 #    - title: "Picture"
 #      type: id_picture
  #     color: "#62b462"
     - title: "On hold"
       type: id_quote
-      color: "#2FD0ED"
+      color: "gray"
 
   list:
     # example
     - type: id_example
-      project_name: "Up company website"
+      project_name: "Our website is coming live. Stay tuned!"
       project_excerpt: "In progress"
 #      img: ":project1_thumb.jpg"
 #      img_title: "img title1"
       date: "2024-03-01"
       post: |
-        
+
