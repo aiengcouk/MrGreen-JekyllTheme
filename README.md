@@ -1,6 +1,6 @@
 [English]
-[[日本語](https://github.com/aiengcouk/MrGreen-JekyllTheme/blob/main/README-jp.md#readme)]
 [[français](https://github.com/aiengcouk/MrGreen-JekyllTheme/blob/main/README-fr.md#readme)]
+[[日本語](https://github.com/aiengcouk/MrGreen-JekyllTheme/blob/main/README-jp.md#readme)]
 
 ## AI eng site repository.
 

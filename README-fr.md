@@ -1,5 +1,6 @@
-[[English](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README.md#readme)] [[日本語](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-jp.md#readme)] [[Português do Brasil](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-pt.md#readme)] [français]
-
+[[English](https://github.com/aiengcouk/MrGreen-JekyllTheme/blob/main/README.md#readme)]
+[français]
+[[日本語](https://github.com/aiengcouk/MrGreen-JekyllTheme/blob/main/README-jp.md#readme)]
 
 <!-- readme -->
 
