@@ -2,7 +2,7 @@
 
 PROD_PATH = public_html
 LOCAL_PATH = _site
-CP = scp -r
+CP = rsync -avPh
 DEL = rm -rf
 MV = mv
 JEKYLL := jekyll
