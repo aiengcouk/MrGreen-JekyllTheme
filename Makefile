@@ -7,7 +7,7 @@ DEL = rm -rf
 MV = mv
 JEKYLL := jekyll
 CACHE_DIRS := .sass-cache .jekyll-metadata
-PROD_CREDENTIALS := $(shell cat ~/.config/.prod-credentials 2>/dev/null)
+PROD_CREDENTIALS := $(shell cat ~/.config/.prod-credentials)
 
 ifeq (, $(shell which $(JEKYLL)))
 no_jekyll:
@@ -25,11 +25,11 @@ build:
 	$(JEKYLL) build
 
 deploy: check-commits clean build
-	ifndef PROD_CREDENTIALS
-		$(error PROD_CREDENTIALS is not set)
-	endif
+ifndef PROD_CREDENTIALS
+	$(error PROD_CREDENTIALS is not set)
+endif
 	$(MV) $(LOCAL_PATH) $(PROD_PATH)
-  $(CP) $(PROD_PATH) $(PROD_CREDENTIALS):
+	$(CP) $(PROD_PATH) $(PROD_CREDENTIALS):
 
 check:
 	@echo "Checking ..."
