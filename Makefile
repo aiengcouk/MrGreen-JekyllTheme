@@ -2,6 +2,8 @@
 
 PROD_PATH = public_html
 LOCAL_PATH = _site
+
+# We not using rsync because it's not available on the remote server.
 CP = scp -r
 DEL = rm -rf
 MV = mv
