@@ -183,54 +183,8 @@ contact_form:
 # for cookie consent
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
-  side_nav_setting_button_tooltip: &cookie_settings Cookie settings
-  panel_bar:
-    msg: >
-      This website uses cookies to optimize site functionality.
-      It will be activated with your approval.
-    privacy_msg: Check $privacy_link.
-    buttons:
-      accept: &accept_button Allow all
-      settings: Customize
-      deny: &deny_button Deny
+  side_nav_setting_button_tooltip: &cookie_settings This website does not use cookies, <br/>and we do not spy on you.
+
   panel_settings:
     title: *cookie_settings
-    msg: >
-      This website uses cookies to optimize site functionality.
-      It will be activated with your approval. Please click each item below for cookie policy.
-    privacy_msg: Check $privacy_link.
-    buttons:
-      accept: *accept_button
-      save: Allow selection
-      deny: *deny_button
-    always_active: Always active
-    consent_types:
-      necessary:
-        title: Strictly necessary cookies
-        info: >
-          These cookies are essential for the website function and cannot be disable.
-          They are usually set when site function like color scheme etc. is changed.
-          These cookies do not store any personally identifiable information.
-          $gtag_info
-      analytics:
-        title: Performance cookies
-        info: $gtag_info
-      preferences:
-        title: Functionality cookies
-        info: $gtag_info
-      advertising:
-        title: Targeting and advertising cookies
-        info: $gtag_info
-    gtag_info:
-      # from https://support.google.com/tagmanager/answer/10718549#consent-types
-      ad_storage: >
-        Enables storage (such as cookies) related to advertising.
-      analytics_storage: >
-        Enables storage (such as cookies) related to analytics e.g. visit duration.
-      functionality_storage: >
-        Enables storage that supports the functionality of the website or app e.g. language settings.
-      personalization_storage: >
-        Enables storage related to personalization e.g. video recommendations.
-      security_storage: >
-        Enables storage related to security such as authentication functionality,
-        fraud prevention, and other user protection.
+
