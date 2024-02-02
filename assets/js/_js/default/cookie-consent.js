@@ -56,17 +56,6 @@
   }
 
   function showConsentBar() {
-    if (localStorage.getItem(storageKey)) return;
-    let box = document.querySelector(consentBarSelector);
-    let footerElement = document.querySelector(footerSelector);
-    let rootElement = document.querySelector(':root');
-    let position = window.getComputedStyle(footerElement).getPropertyValue('position');
-    let offset = parseInt(window.getComputedStyle(rootElement).getPropertyValue(footerHeight));
-
-    if (position == "fixed" || position == "sticky") {
-      box.style.bottom = offset + 'px';
-    }
-    box.style.display = 'inherit';
   }
 
   function hideConsentBar() {
@@ -80,13 +69,6 @@
       case "accept":
         acceptDenyAll(true);
         break;
-      case "save":
-        setConsents();
-        break;
-      case "deny":
-        acceptDenyAll(false);
-        break;
-      default: logger("consentSettingDone undefined parameter");
     }
     hideSettings();
   }
@@ -95,12 +77,6 @@
     switch (button) {
       case "accept":
         acceptDenyAll(true);
-        break;
-      case "settings":
-        showSettings();
-        break;
-      case "deny":
-        acceptDenyAll(false);
         break;
       default: logger("consentBarDone undefined parameter");
     }
