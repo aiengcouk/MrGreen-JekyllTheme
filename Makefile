@@ -7,6 +7,7 @@ DEL = rm -rf
 MV = mv
 JEKYLL := jekyll
 CACHE_DIRS := .sass-cache .jekyll-metadata
+PROD_CREDENTIALS := $(PROD_CREDENTIALS)
 
 ifeq (, $(shell which $(JEKYLL)))
 no_jekyll:
