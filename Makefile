@@ -28,8 +28,8 @@ deploy: check-commits clean build
 ifndef PROD_CREDENTIALS
 	$(error PROD_CREDENTIALS is not set)
 endif
-	$(MV) $(LOCAL_PATH) $(PROD_PATH)
-	$(CP) $(PROD_PATH) $(PROD_CREDENTIALS):
+	$(MV) $(LOCAL_PATH) $(PROD_PATH) || (echo "move failed." && exit 1)
+	$(CP) $(PROD_PATH) $(PROD_CREDENTIALS): || (echo "Deploy failed." && exit 1) && $(DEL) $(PROD_PATH) && echo -e "\nDeployed. Sleep well.\n"
 
 check:
 	@echo "Checking ..."
