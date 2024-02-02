@@ -2,13 +2,13 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Ai Eng site"
+brand: "AI Eng site"
 
 # text below the brand name
 brand_sub_text: "$site_sample"
 
 # used for seo meta post author (if it's not defined in post)
-name: "Ai Eng"
+name: "AI Eng"
 
 # home page top header texts
 home:
