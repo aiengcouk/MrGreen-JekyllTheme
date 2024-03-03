@@ -1,10 +1,6 @@
 [English]
-[[français](https://github.com/aiengcouk/MrGreen-JekyllTheme/blob/main/README-fr.md#readme)]
-[[日本語](https://github.com/aiengcouk/MrGreen-JekyllTheme/blob/main/README-jp.md#readme)]
 
 ## [AI eng group](https://www.ai-eng.co.uk) site repository
-
-# Coming soon
 
 #### Thanks to Mr. Green Jekyll for the nice Theme
 
