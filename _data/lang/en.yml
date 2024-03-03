@@ -9,7 +9,7 @@ lng:
   # specifically needed for open-graph meta og:locale. if open_graph or html_lng_with_country_code not enabled in _data/conf/main.yml, it's not necessary.
   # For html tags, you can enable or disable using html_lng_with_country_code defined in _data/conf/main.yml
   # based on ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-  country: US
+  country: UK
   switch_title: En
   offer:
     title: Language
@@ -19,7 +19,7 @@ lng:
 
 date:
   # if %b is used in the long format, it will be replaced with the corresponding item in 'months' list below.
-  long: "%b %-d, %Y"
+  long: "%d %-b, %Y"
   day: "%d"
   year: "%Y"
   # months itself also used in Archive page.
@@ -171,7 +171,7 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Coming soon
+  greetings: "&nbsp; &nbsp; All good books will tell you to aim for a one-sentence pitch, so here we go. 'What are you, guys, doing?' 'We are working on a couple of projects: one with long-term objectives, one that brings benefits now and is practical, and some that we do for fun'. Got the idea? Nop? We’ll explain. <br/>&nbsp;<br/>&nbsp;&nbsp;The first project is something we came up with when we were discussing what we believed the challenges for AI would be. We have long careers in several industries, and at some point we were brainstorming what could be replaced by this new technical force and where it would struggle. Summarising that meeting, we concluded that everything revolves around the things that are super obvious to humans and so hard to do with machines due to prioritisation issues when starting a task,  also during the execution, due to the vast human dataset, the comparison capabilities, the creativity, the skill sets, or due to the long list that followed. Going from the bottom up, we chose a challenging task and started looking for solutions with AI capabilities alone. The progress? We are on it. We’ll see."
   welcome: Welcome
   sample: ""
 

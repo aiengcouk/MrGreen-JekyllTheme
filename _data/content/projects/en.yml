@@ -5,30 +5,72 @@
 page_data:
   main:
     header: "Projects"
-    info: "This is the list of our projects."
+    info: "<h2><b>We are working on a few projects. Here are some details.</b></h2>"
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
-    img: ":projects-heading.jpg"
+    img: ":pexels-markus-spiske-monitor.jpg"
     back_color: "lightblue"
 
   category:
     - title: "In progress"
-      type: id_example
+      type: id_in_progress
       color: "#2FD0ED"
-#    - title: "Picture"
-#      type: id_picture
- #     color: "#62b462"
     - title: "On hold"
-      type: id_quote
+      type: id_on_hold
       color: "gray"
 
   list:
-    # example
-    - type: id_example
+    - type: id_in_progress
       project_name: "Our website is coming live. Stay tuned!"
       project_excerpt: "In progress"
-#      img: ":project1_thumb.jpg"
-#      img_title: "img title1"
+      img: ":markus-spiske-site-logo-unsplash.jpg"
+      img_title: "Photo by Markus Spiske"
       date: "2024-03-01"
       post: |
+        > We are working to bring our website live.
 
+    - type: id_in_progress
+      project_name: "Project X-RAY Eyes"
+      project_excerpt: "In progress"
+      img: ":markus-spiske-unsplash.jpg"
+      img_title: "Photo by Markus Spiske"
+      date: "2024-01-01"
+      post: |
+
+        >As mentioned in the Home Section, one of the projects we are working on has long-term objectives. Here are some details:
+
+        >We came across a situation where a human has to classify an image as identical to an image from a set of over 500 classes images. These are not classes, nor are they grouped; these are just single items, and a human solves the problem for seconds without needing any additional knowledge or special training. It is similar to the Captcha tasks, but not quite.
+
+        >Mentioning the Captcha, we sense some issues heading the human way soon. Asking one of us recently what he is working on, he would have replied 'I am struggling to prove I’m a human', meaning trying to answer a Captcha question on a website, not going to say which one, where you need quite an imagination and some serious analytical skills to solve it … on the fourth attempt. This example could simply mean that humans are very different from one another; some people solve it for a second, probably. That was on a side note.
+
+        >Back to our task: We have already solved the case in the past by applying traditional methods and coding. It works, but the best time we get is 90 seconds to solve it. It could probably get better, but that’s not the point. We are now trying to work it out with the image recognition capabilities of AI.
+
+        >Everyone we have shared further details of the task with has managed to advise us to use this or that, to get a different starting point, to change the referencing, or to just add some code. What we are working on are unclassed single images which are not simply collection of 30 letters or merely combinations of forms. 'Did you see that someone has already done something that you could apply?' 'Yes, we did', or 'Thanks, didn’t know that and we’ll check'. Its just something a bit different. We really appreciate such inputs, as they help us see how the proposed method is different from the one we would like to apply and crack the task for a second instead of ninety. The task may sound easy at first, but if it were, nobody would bother to create Capthas or similar tasks after all.
+
+        >We are doing our research, we are coming up with ideas, and we are testing. That’s all from us for the moment. We are doing other staff as well, did we mention? More details on our other projects are coming soon.
+
+    - type: id_in_progress
+      project_name: "Project The Prompt"
+      project_excerpt: "In progress"
+      img: ":markus-spiske-golf.jpg"
+      img_title: "Photo by Markus Spiske"
+      date: "2024-02-01"
+      post: |
+          >We have not chosen a name for this project yet. Between ourselves we call it the PROMPT one. It is an attempt to build own framework for processing regulatory data with version control. Explained this way, the project may sound too big, too vague, or too simple to some. The way we see it is that the biggest challenge revolves around the reliability of the final results.
+
+          >Feed the right data and ask the right questions. Easy, right? Well, you would know the Earth is round only after you have looked from above. How much up do you have to go to see it? Can you actually see it for yourself? Maybe you are curious and have studied the horizon. Does the horizon looks the same at the seaside and in the mountains? Have you thought about that, and can you travel that far to check for yourself? Luckily, we have the right data for the Earth already. We have access to other data as well. There are billions of documents online, plus information shared by people who have searched for solutions to specific problems. Does this make you feel confident enough to skip the legal advisor?
+
+          >AI technology will change every aspect of our world, no doubt. It wouldn’t need us to state the sequence of steps to be followed to achieve a result. It can figure them out better than humans, we hear. The AI would have come up with the idea to consider the line of the horizon on its own and would have just told us the Earth is a sphere. Or it wouldn’t, since we didn’t ask.
+
+          >We do not expect to solve some great problems for humanity with our PROMPT project. We are doing it for ourselves and are trying to find solutions that work for us. The text you are reading now is not AI-generated, neither because we don’t know how to do that, nor because it wouldn’t come up with something better than this. We are writing this just to make sure we have pointed out the right questions.
+
+          >So, back to the project. We have started Prompt Engineering work. We have tested a couple of solutions on small-scale data in areas where we are competent to check the results or where we can get real time feedback.  We even managed to get results that helped a couple of friends deal with small scale issues. We’ll keep on working on this project, as we are curious how well we can do on the dataset-prompt loop.
+
+    - type: id_on_hold
+      project_name: "Project Wildlife"
+      project_excerpt: "On hold"
+      img: ":markus-spiske-birds-house.jpg"
+      img_title: "Photo by Markus Spiske"
+      date: "2023-01-01"
+      post: |
+        > This is our fun project. Birdwatching. A flock of rose-ringed parakeets flies above our heads twice a day. We’ll be glad to be able to figure out when exactly they will come and how their numbers are changing. The work on this project is currently on hold as we need some more hardware and spare time. The inspiration is here, though.
