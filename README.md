@@ -1,8 +1,9 @@
-[English]
 
 ## [AI eng group](https://www.ai-eng.co.uk) site repository
 
-#### Thanks to Mr. Green Jekyll for the nice Theme
+#### Thanks to Mr. Green for the nice Jekyll Theme
+
+#### Thanks to [Markus Spiske](https://ffcu.io/about/) for the nice images
 
 #### Libraries Used to Create This Website Theme work, and their respective licenses.
 
