@@ -8,8 +8,8 @@ page_data:
     info: "<h2><b>We are working on a few projects. Here are some details.</b></h2>"
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
-    img: ":pexels-markus-spiske-monitor.jpg"
-    back_color: "lightblue"
+    # img: ":pexels-markus-spiske-monitor.jpg"
+    back_color: "black"
 
   category:
     - title: "In progress"
@@ -23,8 +23,8 @@ page_data:
     - type: id_in_progress
       project_name: "Our website is coming live. Stay tuned!"
       project_excerpt: "In progress"
-      img: ":markus-spiske-site-logo-unsplash.jpg"
-      img_title: "Photo by Markus Spiske"
+      #img: ":markus-spiske-site-logo-unsplash.jpg"
+      #img_title: "Photo by Markus Spiske"
       date: "2024-03-01"
       post: |
         > We are working to bring our website live.
@@ -32,8 +32,8 @@ page_data:
     - type: id_in_progress
       project_name: "Project X-RAY Eyes"
       project_excerpt: "In progress"
-      img: ":markus-spiske-unsplash.jpg"
-      img_title: "Photo by Markus Spiske"
+      #img: ":markus-spiske-unsplash.jpg"
+      #img_title: "Photo by Markus Spiske"
       date: "2024-01-01"
       post: |
 
@@ -52,8 +52,8 @@ page_data:
     - type: id_in_progress
       project_name: "Project The Prompt"
       project_excerpt: "In progress"
-      img: ":markus-spiske-golf.jpg"
-      img_title: "Photo by Markus Spiske"
+      #img: ":markus-spiske-golf.jpg"
+      #img_title: "Photo by Markus Spiske"
       date: "2024-02-01"
       post: |
           >We have not chosen a name for this project yet. Between ourselves we call it the PROMPT one. It is an attempt to build own framework for processing regulatory data with version control. Explained this way, the project may sound too big, too vague, or too simple to some. The way we see it is that the biggest challenge revolves around the reliability of the final results.
@@ -69,8 +69,8 @@ page_data:
     - type: id_on_hold
       project_name: "Project Wildlife"
       project_excerpt: "On hold"
-      img: ":markus-spiske-birds-house.jpg"
-      img_title: "Photo by Markus Spiske"
+      #img: ":markus-spiske-birds-house.jpg"
+      #img_title: "Photo by Markus Spiske"
       date: "2023-01-01"
       post: |
         > This is our fun project. Birdwatching. A flock of rose-ringed parakeets flies above our heads twice a day. We’ll be glad to be able to figure out when exactly they will come and how their numbers are changing. The work on this project is currently on hold as we need some more hardware and spare time. The inspiration is here, though.

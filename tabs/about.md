@@ -40,6 +40,8 @@ img: ":about.jpg"
 
 {%- include util/auto-content-generator.liquid -%}
 
+> ### We a small group of frends that belive:
+
 > If it is a machine, it should follow logic. If it doesn't, it’s only because we did not tell it to. As simple as that. So we are on a quest to find the right ways to say it so it can be properly understood and perfectly executed. This website will be sharing the exciting journey of software developers with extensive experience delving into the deep waters of the unknown, aided by emerging technologies and backed up by a sociologist’s mindset to channel the vast AI possibilities into valuable aid for human users.
 
 {{ website_info_text_second }}
